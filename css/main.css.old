@@ -1,0 +1,58 @@
+﻿#success_message{ display: none;}
+
+body {
+}
+
+.main-logo {
+color:white;
+}
+
+.main-logo h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-logo-tld {
+    font-size: 150px;
+}
+
+.main-logo-designs {
+    font-size: 60px;
+}
+
+.main {
+    font-family: "Open sans", Helvetica, Arial;
+    color: rgb(51,51,51);
+    font-size:medium;
+}
+
+.font-thin {
+    font-weight: 300;
+}
+
+.box {
+    background-color: #F7F5F4;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+}
+
+    .box hr {
+        max-width: 400px;
+        border-color: #999999;
+    }
+
+#head {
+    
+    
+    background-image: url('../assets/1280px-Clifton_Suspension_Bridge_2012.jpg');
+    /*background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg');*/
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+/*.main-logo > img{
+    top:0;
+    left:0;
+    position:absolute;
+}*/

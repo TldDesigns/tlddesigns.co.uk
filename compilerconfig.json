@@ -1,0 +1,17 @@
+﻿[
+  {
+    "outputFile": "css/main.css",
+    "inputFile": "css/main.less",
+    "minify": {
+      "enabled": true
+    }
+  },
+  {
+    "outputFile": "css/cookieConsent.css",
+    "inputFile": "css/cookieConsent.less"
+  },
+  {
+    "outputFile": "css/pages.css",
+    "inputFile": "css/pages.less"
+  }
+]

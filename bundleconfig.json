@@ -1,0 +1,50 @@
+[
+  {
+    "outputFileName": "js/index.min.js",
+    "inputFiles": [
+      "js/index.js"
+    ]
+  },
+  {
+    "outputFileName": "index.min.html",
+    "inputFiles": [
+      "index.html"
+    ]
+  },
+  {
+    "outputFileName": "templates/index.min.html",
+    "inputFiles": [
+      "templates/index.html"
+    ]
+  },
+  {
+    "outputFileName": "js/cookieConsent.min.js",
+    "inputFiles": [
+      "js/cookieConsent.js"
+    ]
+  },
+  {
+    "outputFileName": "js/detectIE.min.js",
+    "inputFiles": [
+      "js/detectIE.js"
+    ]
+  },
+  {
+    "outputFileName": "js/ga.min.js",
+    "inputFiles": [
+      "js/ga.js"
+    ]
+  },
+  {
+    "outputFileName": "js/main.min.js",
+    "inputFiles": [
+      "js/main.js"
+    ]
+  },
+  {
+    "outputFileName": "errors/default.min.html",
+    "inputFiles": [
+      "errors/default.html"
+    ]
+  }
+]

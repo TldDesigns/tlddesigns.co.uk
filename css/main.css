@@ -1,0 +1,70 @@
+﻿#success_message {
+  display: none;
+}
+/*body { 
+    padding-top: 65px; 
+}*/
+.main-logo {
+  color: white;
+}
+.main-logo h1 {
+  padding: 0px;
+  margin: 0px;
+}
+.main-logo-tld {
+  font-size: 150px;
+}
+.main-logo-designs {
+  font-size: 60px;
+}
+.main {
+  font-family: "Open sans", Helvetica, Arial;
+  color: #333333;
+  font-size: medium;
+}
+.font-thin {
+  font-weight: 300;
+}
+.box {
+  background-color: #F7F5F4;
+  margin-bottom: 20px;
+  padding: 30px 15px;
+}
+.box hr {
+  max-width: 400px;
+  border-color: #999999;
+}
+#head {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  #head {
+    background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=767');
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #head {
+    background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=768');
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #head {
+    background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=992');
+  }
+}
+@media (min-width: 1200px) {
+  #head {
+    background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=1200');
+  }
+}
+/*.main-logo > img{
+    top:0;
+    left:0;
+    position:absolute;
+}*/
+.navbar-inverse.navbar-brand.title {
+  font-size: x-large;
+  color: white;
+}

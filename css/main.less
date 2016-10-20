@@ -1,0 +1,118 @@
+﻿// LESS Variables 
+
+// Bootstrap
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs:                  480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min:              @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone:               @screen-xs-min;
+
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm:                  768px;
+@screen-sm-min:              @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet:              @screen-sm-min;
+
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md:                  992px;
+@screen-md-min:              @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop:             @screen-md-min;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg:                  1200px;
+@screen-lg-min:              @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop:          @screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max:              (@screen-sm-min - 1);
+@screen-sm-max:              (@screen-md-min - 1);
+@screen-md-max:              (@screen-lg-min - 1);
+
+// Variables end
+
+
+#success_message{ display: none;}
+
+/*body { 
+    padding-top: 65px; 
+}*/
+
+.main-logo {
+color:white;
+}
+
+.main-logo h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-logo-tld {
+    font-size: 150px;
+}
+
+.main-logo-designs {
+    font-size: 60px;
+}
+
+.main {
+    font-family: "Open sans", Helvetica, Arial;
+    color: rgb(51,51,51);
+    font-size:medium;
+}
+
+.font-thin {
+    font-weight: 300;
+}
+
+.box {
+    background-color: #F7F5F4;
+    margin-bottom: 20px;
+    padding: 30px 15px;
+}
+
+    .box hr {
+        max-width: 400px;
+        border-color: #999999;
+    }
+
+#head {
+    
+    @media (max-width: @screen-xs-max){
+        background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=767');
+    }
+    @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+        background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=768');
+    }
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+        background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=992');
+    }
+    @media (min-width: @screen-lg-min) {
+        background-image: url('../assets/Clifton_Suspension_Bridge_2012.jpg?width=1200');
+    }
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+/*.main-logo > img{
+    top:0;
+    left:0;
+    position:absolute;
+}*/
+
+.navbar-inverse.navbar-brand.title {
+    font-size:x-large;
+    color: white;
+}

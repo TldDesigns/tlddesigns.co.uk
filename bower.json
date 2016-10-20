@@ -1,0 +1,36 @@
+{
+  "name": "tlddesigns",
+  "description": "TLD Designs",
+  "main": "",
+  "authors": [
+    "David Landy"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "TLDDesigns.CookieConsent": "^0.0.1"
+  },
+  "install": {
+    "path": {
+      "css": "css",
+      "js": "js"
+    },
+    "sources": {
+      "TLDDesigns.CookieConsent": {
+        "mapping": [
+          {"bower_components/TLDDesigns.CookieConsent/cookieConsent.min.js" : "../cookieConsent.min.js"}
+        ]
+      }
+    }
+
+  }
+}
